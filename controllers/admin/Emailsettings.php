@@ -231,16 +231,6 @@ class Emailsettings extends Admin_Controller
 				$config['smtp_crypto']   = $element->smtp_crypto;
 			}
 			
-			/*
-			$config['smtp_host']    = 'smtp.sendgrid.net';
-			$config['smtp_port']    = '587';
-			$config['smtp_timeout'] = '60';
-			$config['smtp_user']    = 'apikey';
-			$config['smtp_pass']    = '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';
-			$config['smtp_crypto']    = 'TLS';
-			*/
-			
-			
 			$config['crlf']    		= "\r\n";
 			$config['newline']    	= "\r\n";
 			$config['charset']    	= "utf-8";
